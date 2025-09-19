@@ -1,17 +1,17 @@
 import "./index.css";
-import time from "./assets/time.png";
+import clock from "./assets/clock.png";
 
-function Time()
+function Clock()
 {
     return(
         <div className="h-170 w-90 bg-black text-white flex flex-col items-center space-y-5">
       <div className="h-45 w-55 mt-20 flex flex-col">
-        <img src={time} alt="time" />
+        <img src={clock} alt="clock" />
       </div>
 
       <div className="flex flex-col items-start w-full px-7">
         <h1 className="text-sm font-semibold mt-7 bg-gradient-to-r from-[#71dbc3e4] via-[#248f97] to-[#1b5782] bg-clip-text text-transparent">
-          Time
+          Clock
         </h1>
       </div>
 
@@ -32,4 +32,4 @@ function Time()
       </div>
     );
 }
-export default Time;
+export default Clock;
