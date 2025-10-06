@@ -11,9 +11,10 @@ import './index.css'
 //import ScheduleSection from "./Screen/ScheduleSection.tsx";
 //import WelcomeSection from './Screen/WelcomeSection.tsx';
 //import EventModalSection from './Screen/EventModalSection.tsx';
-import Home from './Screen/Home.tsx';
+//import Home from './Screen/Home.tsx';
 //import Weather from './Weather_Application.tsx';
-
+import App from './GithubProfileView/App.tsx';
+//import App from './GithubProfileView/Homepage.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -26,8 +27,10 @@ createRoot(document.getElementById('root')!).render(
     {/* <WelcomeSection /> */}
     {/* <ScheduleSection /> */}
     {/* <EventModalSection /> */}
-    {/*<Weather />*/}
-     <Home /> 
+    {/* <Weather /> */}
+    {/* <Home /> */}
+     <App />
+     {/*<Homepage />*/}
 
   </StrictMode>,
 )
