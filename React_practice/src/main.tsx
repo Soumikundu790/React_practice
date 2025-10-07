@@ -13,8 +13,9 @@ import './index.css'
 //import EventModalSection from './Screen/EventModalSection.tsx';
 //import Home from './Screen/Home.tsx';
 //import Weather from './Weather_Application.tsx';
-import App from './GithubProfileView/App.tsx';
+//import App from './GithubProfileView/App.tsx';
 //import App from './GithubProfileView/Homepage.tsx';
+import App from './ACADEMIA_PULSE/App.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -29,6 +30,7 @@ createRoot(document.getElementById('root')!).render(
     {/* <EventModalSection /> */}
     {/* <Weather /> */}
     {/* <Home /> */}
+     {/*<App /> */}
      <App />
      {/*<Homepage />*/}
 
