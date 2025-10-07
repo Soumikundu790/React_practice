@@ -15,7 +15,7 @@ import './index.css'
 //import Weather from './Weather_Application.tsx';
 //import App from './GithubProfileView/App.tsx';
 //import App from './GithubProfileView/Homepage.tsx';
-import App from './ACADEMIA_PULSE/App.tsx';
+import App from './ACADEMIAPULSE/App.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
